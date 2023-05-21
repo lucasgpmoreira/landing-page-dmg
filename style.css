@@ -1,0 +1,213 @@
+/*FONTES GOOGLE FONTS, ROBOTO SANS E JOSEFIN SANS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap');
+
+
+
+/*BODY*/
+body {
+    background:  #1A6D80;
+}
+
+
+
+
+
+/* BARRA DE NAVEGAÇÃO*/
+
+.myNavbar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #061822;
+    font-weight: bold;
+    color: #061822 !important;
+    width: 100%;
+}
+
+.nav {
+    font-weight: bold;
+    text-align: center;
+    color: #061822 !important;
+}
+
+@media (min-width: 767px) {
+
+    /*A partir de uma tela com 767px a barra de navegação fica fixa*/
+    .myNavbar {
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .img-responsive {
+        padding-top: 30px;
+    }
+}
+
+/* FIM BARRA DE NAVEGAÇÃO */
+
+
+/* PRIMEIRA SEÇÃO */
+#secao1 {
+    background: #1B778C;
+    text-align: center;
+    color: #EEEEEE;
+    margin: 0px 0 20px 0;
+    padding: 2em;
+}
+
+.img-responsive {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+.tituloInicio {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 250%;
+    line-height: 133.02%;
+    align-items: center;
+    text-align: center;
+    color: #EEEEEE;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* FIM PRIMEIRA SEÇÃO */
+
+
+/* SEGUNDA SEÇÃO */
+#contact {
+    background: #061822;
+    text-align: center;
+    color: EEEEEE;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+}
+
+.tituloContato {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 300%;
+    line-height: 133.02%;
+    align-items: center;
+    text-align: center;
+    color: #EEEEEE;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botoes {
+    margin: 20px 0px;
+    border: 0;
+    color: #061822;
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 36px;
+}
+
+button.botoes:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 1));
+    background-color: #e6e6ff;
+}
+
+/* FIM SEGUNDA SEÇÃO */
+
+/* TERCEIRA SEÇÃO */
+#sobre {
+    background: #1B778C;
+    text-align: center;
+    color: EEEEEE;
+    margin: 0px 0 0px 0;
+}
+
+.textoSobre {
+    margin-left: 5%;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133.02%;
+    /* or 53px */
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #FFFFFF;
+    width: 90%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.conteudo-celular {
+    display: none;
+    padding: 10px;
+}
+
+.conteudo-computador {
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+
+    /*Telas com menos de 767px não mostram a imagem lado a lado com  o texto*/
+    .conteudo-celular {
+        display: block;
+    }
+
+    .conteudo-computador {
+        display: none;
+
+    }
+
+    .imgRevest {
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* FIM TERCEIRA SEÇÃO */
+
+
+/* RODAPE */
+
+#rodape {
+    background: #061822;
+    margin: 0px 0 0px 0;
+}
+
+.rodape {
+    width: 100%;
+    padding-top: 10px;
+    height: fit-content;
+}
+
+.rodapeTelefone {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #EEEEEE;
+    padding-left: 20px;
+    width: 200px;
+}
+
+.rodapeLocal {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #EEEEEE;
+    padding-left: 20px;
+    width: 200px;
+    width: 400px;
+
+}
+
+/* FIM RODAPE */
